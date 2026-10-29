@@ -1,0 +1,10 @@
+# ab+ : Append and Read Binary
+
+with open("example.bin", "ab+") as file:
+    file.write(b"\nWelcome to Python")
+
+    file.seek(0)
+
+    print(file.read())
+
+print("Append and read operation completed.")

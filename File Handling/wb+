@@ -1,0 +1,10 @@
+# wb+ : Write and Read Binary
+
+with open("example.bin", "wb+") as file:
+    file.write(b"Hello Python")
+
+    file.seek(0)
+
+    print(file.read())
+
+print("Write and read operation completed.")

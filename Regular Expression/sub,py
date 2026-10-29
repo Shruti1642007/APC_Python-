@@ -1,0 +1,5 @@
+import re 
+text = "hello 123"
+result =re.sub(r"\d+", "XXX",text)
+print(result)
+

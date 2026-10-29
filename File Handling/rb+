@@ -1,0 +1,8 @@
+# rb+ : Read and Write Binary
+
+with open("example.bin", "rb+") as file:
+    print(file.read())
+
+    file.write(b"\nHello Python")
+
+print("Read and write operation completed.")

@@ -1,0 +1,11 @@
+try:
+    num = int(input("enter a number:"))
+    result = 10 / num
+    print("Result=", result)
+
+except ZeroDivisionError:
+    print("cannot divide by zero.")
+
+finally:
+    print("This block is always executrs.")
+            
